@@ -18,7 +18,6 @@ module.exports = {
         'gatsby-transformer-sharp',
         'gatsby-image',
         '@horacioh/gatsby-theme-instagram',
-        'gatsby-plugin-page-transitions',
         'gatsby-plugin-transition-link',
         {
             resolve: `gatsby-source-instagram`,

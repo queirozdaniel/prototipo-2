@@ -18,7 +18,7 @@ const Medias = () => {
                     <p class="text-center text-lg mb-8">Dicas sobre como mudar de vida</p>
                     <div class="shadow ">
                         <iframe title="Minha historia" width="600px" height="400px" src="https://www.youtube.com/embed/wJNlL9vgZoI" frameborder="0"
-                            allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                            allow="accelerometer; encrypted-media; gyroscope; picture-in-picture"
                             allowfullscreen>
                         </iframe>
                     </div>

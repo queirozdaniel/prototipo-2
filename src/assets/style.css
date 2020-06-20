@@ -1,0 +1,105 @@
+@import "tailwindcss/base";
+
+@import "tailwindcss/components";
+
+@import "tailwindcss/utilities";
+
+* {
+    box-sizing: border-box;
+}
+
+body,
+h1,
+h2,
+p,
+ul,
+li,
+a {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    font-family: "Nunito", Helvetica, Arial, sans-serif;
+    color: #000;
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+img {
+    display: block;
+    max-width: 100%;
+}
+
+/* Header */
+
+.container {
+    max-width: 1020px;
+    margin: 0 auto;
+}
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+.header__logo {
+    font-size: 36px;
+    color: #000;
+}
+
+.header__links {
+    display: flex; 
+    align-items: center;
+}
+
+.header__links li a{
+    color: black;
+    margin: 0 10px;
+}
+
+/* */
+
+.section__title::after {
+    content: '';
+    width: 60px;
+    height: 3px;
+    background: #000;
+    display: block;
+    margin: 8px auto;
+}
+
+.list__items li {
+    padding-top: 0.75rem;
+}
+
+
+
+.cartonn{
+    height: 190px;
+}
+
+/* classes para animações */
+
+.post_layout p {
+    padding: 1rem 0;
+    line-height: 1.50;
+}
+
+.post_layout blockquote {
+    border-left: 4px solid teal;
+    margin: 1.25rem 0;
+    padding-left: 1rem;
+}
+
+.post_layout blockquote p {
+    font-style: italic;
+}

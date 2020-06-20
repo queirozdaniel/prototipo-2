@@ -3,7 +3,7 @@ import { useStaticQuery, graphql } from "gatsby"
 export default function useGridInstagramImages() {
   return useStaticQuery(graphql`
     query {
-      allInstaNode: allInstaNode(filter: {username: {eq: "juqueiroz__"}}, limit: 12) {
+      allInstaNode(filter: {username: {eq: "juqueiroz__"}}, limit: 12) {
         edges {
           node {
             id

@@ -1,6 +1,6 @@
 import React from 'react'
 import useGridInstaramImages from '../../hooks/useGridInstagramImages'
-import Image from 'gatsby-image'
+//import Image from 'gatsby-image'
 import { Link } from 'gatsby'
 
 const Medias = () => {
@@ -76,7 +76,7 @@ const Medias = () => {
                     <h2 class="text-center text-xl">Instagram</h2>
                     <p class="text-center text-lg mb-8">Dicas sobre empreendedorismo</p>
                     <div class="shadow grid grid-cols-6">
-                        {data.allInstaNode.edges.map((post) => {
+                        {/*data.allInstaNode.edges.map((post) => {
                             return (
                                 <div className="hover:opacity-50 duration-300  rounded p-1">
                                     <a href={`https://www.instagram.com/p/${post.node.id}/`}>
@@ -84,7 +84,7 @@ const Medias = () => {
                                     </a>
                                 </div>
                             )
-                        })}
+                        })*/}
 
                     </div>
                 </div>
